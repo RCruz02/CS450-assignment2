@@ -4,12 +4,12 @@ class WorkExperience extends Component {
     render() {
       return (
         <div id="row2">
-            <h3>{this.props.title}</h3>
+            <h3>{this.props.workExperience.title}</h3>
             <div>
-                <h3>{this.props.job1}</h3>
-                <p>{this.props.content1}</p>
-                <h3>{this.props.job2}</h3>
-                <p>{this.props.content2}</p>
+                <h3>{this.props.workExperience.job1}</h3>
+                <p>{this.props.workExperience.job1Content}</p>
+                <h3>{this.props.workExperience.job2}</h3>
+                <p>{this.props.workExperience.job2Content}</p>
             </div>
         </div>
       );

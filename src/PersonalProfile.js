@@ -4,9 +4,9 @@ class PersonalProfile extends Component {
     render() {
       return (
         <div id="row2">
-            <h3>{this.props.title}</h3>
+            <h3>{this.props.profile.title}</h3>
             <div>
-                <p>{this.props.content}</p>
+                <p>{this.props.profile.content}</p>
             </div>
         </div>
       );

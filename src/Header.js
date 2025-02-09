@@ -5,13 +5,13 @@ class Header extends Component {
       return (
         <div class="row1">
             <div>
-                <h3>Name: {this.props.name}</h3>
-                <p>Major: {this.props.major}</p>
+                <h3>Name: {this.props.personInfo.name}</h3>
+                <p>Major: {this.props.personInfo.occupation}</p>
             </div>
             <div>
-                <p>Email: <a href="mailto:abc@gmail.com"> {this.props.email}</a></p>
-                <p>Web: {this.props.web}</p>
-                <p>Mobile: {this.props.mobile}</p>
+                <p>Email: <a href="mailto:abc@gmail.com"> {this.props.contactInfo.email}</a></p>
+                <p>Web: {this.props.contactInfo.web}</p>
+                <p>Mobile: {this.props.contactInfo.mobile}</p>
             </div>
         </div>
       );
